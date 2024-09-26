@@ -1,0 +1,33 @@
+.banner{
+    padding-top: 205px;
+    background-image: url("../img/bannerbg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    .banner-text{
+       h2{
+        text-transform: uppercase;
+        font-size: 160px;
+        font-weight: 500;
+        font-family: $font-1;
+        line-height: 1.2;
+        letter-spacing: -2px;
+        text-shadow: 12px 12px 0px #000;
+
+       }
+    }
+    .banner-content {
+        p{
+            font-size: 23px;
+            font-weight: 300;
+            line-height: calc( 46px / 40px);
+            font-family: $font-1;
+            color: white;
+        }
+    }
+    .banner-from{
+        .btns{
+            
+        }
+    }
+}
